@@ -1,6 +1,7 @@
 package com.company;
 
 import com.google.gson.Gson;
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -21,16 +22,16 @@ public class Main {
 
     public static void main(String[] args) {
         ArrayList<Integer> cities = new ArrayList<>();
-        cities.add(2023469);//Irkustk -
-        cities.add(2051523);//Bratsk -
+        cities.add(2023469);//Irkustk
+        cities.add(2051523);//Bratsk
         cities.add(1497337);//Norilsk
-        cities.add(1486209);//EkB -
-        cities.add(498817); //SPB -
-        cities.add(524901); //MSK -
+        cities.add(1486209);//EkB
+        cities.add(498817); //SPB
+        cities.add(524901); //MSK
         cities.add(2013159); //Yakutsk
-        cities.add(554234); // Kaliningrad-
-        cities.add(551487); // Kazan-
-        cities.add(2013348); //Vladivostok-
+        cities.add(554234); // Kaliningrad
+        cities.add(551487); // Kazan
+        cities.add(2013348); //Vladivostok
         Gson gson = new Gson();
         String[] result = new String[10];
 
